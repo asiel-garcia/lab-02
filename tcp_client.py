@@ -12,8 +12,8 @@ def main():
     # TODO: Get user input and send it to the server using your TCP socket
     # TODO: Receive a response from the server and close the TCP connection
     pass
-HOST="127.0.0.1"
-PORT=10001
+HOST="172.20.10.10"
+PORT=1928
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 	s.connect((HOST,PORT))
